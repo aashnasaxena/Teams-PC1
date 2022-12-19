@@ -173,7 +173,7 @@ PCangle.to_csv(cwd + "/Theta.csv", index = False)
 
 def PCA_teams(coeff_path):
 	df = pd.read_csv(coeff_path)
-	df.drop(columns = "Unnamed: 0", inplace = True)
+	#df.drop(columns = "Unnamed: 0", inplace = True)
 	df.sort_index(axis = 1, inplace = True)
 	cols = df.columns[:-1].to_list()
 	TS = []
