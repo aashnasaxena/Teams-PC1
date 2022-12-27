@@ -109,8 +109,8 @@ pool = Pool(70)
 PC1v = pool.map(pc1var,[(glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*norm.csv")[0]) for n in range(1,4) for t in tpfl])
 PC2v = pool.map(pc2var,[(glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*norm.csv")[0]) for n in range(1,4) for t in tpfl])
 PCnum = pool.map(pcncomp,[(glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*norm.csv")[0]) for n in range(1,4) for t in tpfl])
-PCcoeff = pool.starmap(cumulative,[(glob.glob(cwd + "/Results/" + t[:-5] + "/1" + "/*norm.csv")[0],t) for t in tpfl])
-PCtheta = pool.starmap(theta,[(glob.glob(cwd + "/Results/" + t[:-5] + "/1" + "/*norm.csv")[0],t) for t in tpfl])
+PCcoeff = pool.starmap(cumulative,[(glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*norm.csv")[0],t) for t in tpfl for n in range(1,4)])
+PCtheta = pool.starmap(theta,[(glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*norm.csv")[0],t) for t in tpfl for n in range(1,4)])
 
 pool.close()
 pool.join()
@@ -141,9 +141,13 @@ nums['2'] = PCnum[len(tpfl):(2*len(tpfl))]
 nums['3'] = PCnum[2*len(tpfl):]
 nums.sort_values(by = "Network", inplace = True)
 
+Cfin = []
+for c in np.arange(0,(3*len(tpfl)),3):
+	co = pd.concat(PCcoeff[c:c+3], axis = 0)
+	Cfin.append(co)
 Cframes = []
 i = 1 
-for c in PCcoeff:
+for c in Cfin:
 	if i == 1:
 		Cframes.append(c)
 	else:
@@ -153,9 +157,13 @@ for c in PCcoeff:
 coeff = pd.concat(Cframes, axis = 1)
 coeff.sort_index(axis = 1, inplace = True)
 
+Afin = []
+for a in np.arange(0,(3*len(tpfl)),3):
+	ang = pd.concat(PCtheta[a:a+3], axis = 0)
+	Afin.append(ang)
 Aframes = []
 j = 1
-for a in PCtheta:
+for a in Afin:
 	if j == 1:
 		Aframes.append(a)
 	else:
