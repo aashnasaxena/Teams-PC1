@@ -70,7 +70,7 @@ def theta(sol_path,t):
 	df_sol = df.iloc[:,3:]
 	df_sol.drop(columns = ['miR205','miR9','miR30c','VIM','CDH1','KLF8','TCF3'], inplace = True)
 	genes = df_sol.columns.to_list()
-	pca = PCA(0.9).fit(df_sol)
+	pca = PCA(0.96).fit(df_sol)
 	df_pca = pca.transform(df_sol)
 	n = pca.n_components_
 	feat = pca.components_
