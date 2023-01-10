@@ -72,7 +72,7 @@ def Team_Strength(correlation_path,t,tpfl):
 	for g in t2:
 		team2 = team2 + "," + g
 	team2 = team2.replace(",","",1)
-	tlog.write(tpfl[t][:-5] + str(n) + " t1 " + str(len(t1)) + " " + team1 + "\n" + tpfl[t][:-5] + str(n) + " t2 " + str(len(t2)) + " " + team2 + "\n\n")
+	tlog.write(tpfl[t][:-5] + " t1 " + str(len(t1)) + " " + team1 + "\n" + tpfl[t][:-5] + " t2 " + str(len(t2)) + " " + team2 + "\n\n")
 
 	df_t11 = df_cluster.loc[t1,t1]
 	for g in t1:
@@ -87,9 +87,15 @@ def Team_Strength(correlation_path,t,tpfl):
 	num_t22 = df_t22.to_numpy()
 	num_t12 = df_t12.to_numpy()
 	num_t21 = df_t21.to_numpy()
-
-	t11 = abs(np.sum(num_t11, axis = None))/(len(num_t11)*(len(num_t11)-1))
-	t22 = abs(np.sum(num_t22, axis = None))/(len(num_t22)*(len(num_t22)-1))
+	
+	if len(num_t11)-1 == 0:
+		t11 = 0
+	else:
+		t11 = abs(np.sum(num_t11, axis = None))/(len(num_t11)*(len(num_t11)-1))
+	if len(num_t22)-1 == 0:
+		t22 = 0
+	else:
+		t22 = abs(np.sum(num_t22, axis = None))/(len(num_t22)*(len(num_t22)-1))
 	t12 = abs(np.sum(num_t12, axis = None))/(len(num_t12)*len(num_t12[0]))
 	t21 = abs(np.sum(num_t21, axis = None))/(len(num_t21)*len(num_t21[0]))
 
