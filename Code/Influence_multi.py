@@ -10,7 +10,7 @@ import seaborn as sns
 
 cwd = os.getcwd()
 tpdir = "/home/csb/Aashna/Range10/TOPO"
-tlog1 = open("influence_teams.txt","w")
+tlog = open("influence_teams.txt","w")
 
 
 os.chdir(tpdir)
