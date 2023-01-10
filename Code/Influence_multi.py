@@ -38,7 +38,7 @@ def Influence_Matrix(cwd,t,n):
                                 j = topo.iloc[i][1]
                                 adj.loc[row, j] = topo.iloc[i][2]
 
-        print(adj)
+        #print(adj)
 
         N = float(np.count_nonzero(adj))
         inf = adj.copy()
@@ -98,7 +98,7 @@ def Team_Strength(influence_path,tpfl,t):
         for g in t2:
                 team2 = team2 + "," + g
         team2 = team2.replace(",","",1)
-        tlog.write(tpfl[t][:-5] + str(n) + " t1 " + str(len(t1)) + " " + team1 + "\n" + tpfl[t][:-5] + str(n) + " t2 " + str(len(t2)) + " " + team2 + "\n\n")
+        tlog.write(tpfl[t][:-5] + " t1 " + str(len(t1)) + " " + team1 + "\n" + tpfl[t][:-5] + " t2 " + str(len(t2)) + " " + team2 + "\n\n")
 
         df_t11 = df_clust.loc[t1,t1]
         df_t22 = df_clust.loc[t2,t2]
