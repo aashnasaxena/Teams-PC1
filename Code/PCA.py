@@ -20,7 +20,8 @@ tpfl = sorted(results)
 def pc1var(sol_path):
 	df = pd.read_csv(sol_path)
 	df_sol = df.iloc[:,3:]
-	pca = PCA(n_components = 22)
+	l = len(df_sol.columns)
+	pca = PCA(n_components = l)
 	df_pca = pca.fit_transform(df_sol)
 	variance = pca.explained_variance_ratio_
 	return variance[0]
@@ -28,7 +29,8 @@ def pc1var(sol_path):
 def pc2var(sol_path):
 	df = pd.read_csv(sol_path)
 	df_sol = df.iloc[:,3:]
-	pca = PCA(n_components = 22)
+	l = len(df_sol.columns)
+	pca = PCA(n_components = l)
 	df_pca = pca.fit_transform(df_sol)
 	variance = pca.explained_variance_ratio_
 	return variance[1]
@@ -84,14 +86,14 @@ def theta(sol_path,t):
 		df2.iloc[row,:] = df2.iloc[row,:]*e_val[row]
 
 	df2['Basis'] = 0
-	df2.iloc[0,15] = 1 
-	basis = df2.iloc[:,15]
+	df2.iloc[0,len(genes)] = 1 
+	basis = df2.iloc[:,len(genes)]
 
 	d1 = basis 
 	vector = []
 	angles = []
 
-	for j in range(15):
+	for j in range(len(genes)):
 		v = df2.iloc[:,j]
 		vector.append(v)
 
@@ -100,12 +102,13 @@ def theta(sol_path,t):
 
 		angles.append(angle)
 
-	df3 = pd.DataFrame(data = None, index = np.arange(15), columns = ['Node',t[:-5]])
+	df3 = pd.DataFrame(data = None, index = np.arange(len(genes)), columns = ['Node',t[:-5]])
 	df3['Node'] = genes	
 	df3[t[:-5]] = angles
 	df3.sort_values(by = "Node", inplace = True)
 
 	return df3
+
 def theta12(sol_path,t):
 	df = pd.read_csv(sol_path)
 	df_sol = df.iloc[:,3:]
@@ -122,14 +125,14 @@ def theta12(sol_path,t):
 		df2.iloc[row,:] = df2.iloc[row,:]*e_val[row]
 
 	df2['Basis'] = 0
-	df2.iloc[0,15] = 1
-	basis = df2.iloc[:,15]
+	df2.iloc[0,len(genes)] = 1
+	basis = df2.iloc[:,len(genes)]
 
 	d1 = basis 
 	vector = []
 	angles = []
 
-	for j in range(15):
+	for j in range(len(genes)):
 		v = df2.iloc[:,j]
 		vector.append(v)
 
@@ -138,7 +141,7 @@ def theta12(sol_path,t):
 
 		angles.append(angle)
 
-	df3 = pd.DataFrame(data = None, index = np.arange(15), columns = ['Node',t[:-5]])
+	df3 = pd.DataFrame(data = None, index = np.arange(len(genes)), columns = ['Node',t[:-5]])
 	df3['Node'] = genes
 	df3[t[:-5]] = angles
 	df3.sort_values(by = "Node", inplace = True)
@@ -242,12 +245,12 @@ def PCA_teams(theta):
 	df = pd.read_csv(theta)
 	#df.drop(columns = "Unnamed: 0", inplace = True)
 	df.sort_index(axis = 1, inplace = True)
-	cols = df.columns[:-1].to_list()
-	THETA = pd.DataFrame(data = None, index = np.arange(15), columns = np.arange(len(cols)))
-	for k in range(len(cols)):
-		THETA[k] = (theta.iloc[0:15,k]+theta.iloc[15:30,k]+theta.iloc[30:45,k])/3.0
-	THETA.columns = cols
-	THETA['Node'] = df.loc[:15,'Node'].to_list()
+	cols = df.columns[:-1].to_list() #if network name begins with a letter > "N", cols = df.columns[1:].to_list()
+	n = int(len(df.iloc[:,0])/3)
+	THETA = pd.DataFrame(data = None, index = np.arange(n), columns = cols)
+	for k in cols:
+		THETA[k] = (df.loc[0:n-1,k].to_numpy() + df.loc[n:(2*n)-1,k].to_numpy() + df.loc[(2*n):(3*n)-1,k].to_numpy())/3.0
+	THETA['Node'] = df.loc[:n-1,'Node'].to_list()
 	TS = []
 	for col in cols:
 		kmeans = KMeans(n_clusters = 2).fit(THETA[col].to_numpy().reshape(-1,1))
