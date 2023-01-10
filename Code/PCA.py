@@ -218,7 +218,7 @@ PCangle.sort_index(axis = 1, inplace = True)
 Afin12 = []
 for a in np.arange(0,(3*len(tpfl)),3):
 	ang = pd.concat(PCtheta12[a:a+3], axis = 0)
-	Afin.append(ang)
+	Afin12.append(ang)
 Aframes12 = []
 j = 1
 for a in Afin12:
