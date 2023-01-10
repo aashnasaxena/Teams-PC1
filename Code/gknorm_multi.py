@@ -56,8 +56,8 @@ def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
 	norm[1] = solution["ss_no"]
 	norm[2] = solution["percentage"]
 
-	for i in range(3,25):
-		norm[i] = np.log2(merged[i] / (merged[i+22]/merged[i+44]))
+	for i in range(3,gen+3):
+		norm[i] = np.log2(merged[i] / (merged[i+gen]/merged[i+(2*gen)]))
 
 	norm.columns = solution.columns
 
