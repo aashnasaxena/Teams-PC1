@@ -66,8 +66,8 @@ def Team_Hamming(inft, pcat):
 				t12.append(node)
 			else:
 				t21.append(node)
-		hd = (len(t12) + len(t21))/15
-		ihd = (len(t11) + len(t22))/15
+		hd = (len(t12) + len(t21))/len(Nodes)
+		ihd = (len(t11) + len(t22))/len(Nodes)
 		HD.append(hd)
 		IHD.append(ihd)
 		T11.append(t11)
