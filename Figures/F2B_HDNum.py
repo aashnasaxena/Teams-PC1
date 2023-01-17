@@ -12,7 +12,10 @@ final = pd.DataFrame(data = None, index = np.arange(101), columns = ['Network','
 final['Network'] = "Random"
 final.iloc[0,0] = "Biological"
 final['Number of PCs'] = df100['Number of PCs'].to_list()
-final['Hamming Distance'] = df100['Hamming Distance'].to_list()
+hd = []
+for row in df100.index:
+  hd.append(min(df100.loc[row,'Hamming Distance'], df100.loc[row,'Inv. Hamming Distance']))
+final['Hamming Distance'] = hd 
 
 sns.set(rc={"figure.figsize":(10.5,8)})
 sns.set_style("ticks",rc={"axes.facecolor":"white","axes.edgecolor":"black","font.family":'sans-serif',"font.sans-serif":'Arial',"font.size":18})
