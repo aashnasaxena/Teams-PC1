@@ -34,9 +34,20 @@ sapply(unique(hc), function(x) {
         legend.position = "right",
         axis.ticks.y = element_blank(),
         axis.text.y = element_blank(),
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, family = "Palatino")) +
         labs(y = "", x = "") +
     scale_y_discrete(expand = c(0,0)) +
     scale_fill_gradient2(low = "red", high = "blue", limits = c(-5,5))
     ggsave(paste0("EMT_RACIPE_", x, ".png"), width = 6, height = 5)
 })
+
+pc1 <- data.frame(Nodes = names(pc1), Loading = pc1, Class = ifelse(Loading > 0, "S", "N"))
+
+ggplot(pc1, aes(x = reorder(Nodes, -Loading), y = Loading, fill = Class)) +
+    geom_bar(stat = "identity") +
+    theme_Publication() +
+    theme(axis.text.x = element_text(angle = 60, hjust = 1, vjust = 1),
+    legend.position = NULL) +
+    labs(x = "", y = "PC1 Loading")
+
+ggsave("PCALoading.png", width = 9, height = 5.5)
