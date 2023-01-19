@@ -27,7 +27,7 @@ sns.set(rc={"figure.figsize":(10.5,8)})
 sns.set_style("ticks",rc={"axes.facecolor":"white","axes.edgecolor":"black","font.family":'sans-serif',"font.sans-serif":'Arial',"font.size":18})
 sns.set_context({"font.weight":"normal","font.size":18,"font.style":"normal","axes.labelsize":18,"axes.labelpad":8,"axes.labelweight":"bold","xtick.labelsize":18,"ytick.labelsize":18,"legend.edgecolor":"white","legend.facecolor":"white","legend.title_fontsize":18,"legend.fontsize":18})
 
-ax = sns.heatmap(data = cl_inf, annot = False, cmap = "RdBu", vmin = -1, vmax = 1, cbar_kws = {"ticks":[-1,-0.5,0,0.5,1], "shrink": 0.8})
+ax = sns.heatmap(data = cl_inf, annot = False, cmap = "RdBu", vmin = -1, vmax = 1, cbar_kws = {"ticks":[-1,-0.5,0,0.5,1], "shrink": 0.8}, xticklabels = 1, yticklabels = 1)
 ax.axhline(0, color = 'k', linewidth = 1.5)
 ax.axhline(cl_inf.shape[0], color = 'k', linewidth = 1.5)
 ax.axvline(0, color = 'k', linewidth = 1.5)
