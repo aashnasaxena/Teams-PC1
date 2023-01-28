@@ -50,7 +50,7 @@ def Team_Hamming(inft, pcat):
 		inft2 = inft2.replace(";","",1)
 
 		for node in Nodes:
-			if node in pcat.iloc[0,3]:
+			if node in pcat.iloc[row,3]:
 				pcat1 = pcat1 + ";" + node 
 			else:
 				pcat2 = pcat2 + ";" + node 
