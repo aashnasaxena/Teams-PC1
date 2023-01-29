@@ -31,6 +31,9 @@ def Team_Hamming(inft, pcat):
 	infT2 = []
 	PCAT1 = []
 	PCAT2 = []
+	
+	inft['Team'] = inft['Team'].astype(str)
+	pcat['Team'] = pcat['Team'].astype(str)
 
 	for row in np.arange(0,(2*len(nets)),2):
 		t11 = []
