@@ -51,7 +51,7 @@ def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
 	lis = merged.columns.to_list()
 	merged.columns = np.arange(len(lis))
 
-	norm = pd.DataFrame(data = None, index = np.arange(len(solution.index)), columns = np.arange(25))
+	norm = pd.DataFrame(data = None, index = np.arange(len(solution.index)), columns = np.arange(3+gen))
 	norm[0] = solution["model_index"]
 	norm[1] = solution["ss_no"]
 	norm[2] = solution["percentage"]
