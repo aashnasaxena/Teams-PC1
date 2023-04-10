@@ -7,10 +7,9 @@ from multiprocessing import Pool
 
 cwd = os.getcwd()
 
-tpdir = "/home/csb/Aashna/Range10/TOPO"
+tpdir = (cwd+"/TOPO")
 os.chdir(tpdir)
-results = glob.glob("*.topo")
-tpfl = sorted(results)
+tpfl = sorted(glob.glob("*.topo"))
 
 def rmvsol(cwd,t,n):
 	for file in glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*solution_*.dat"):
@@ -25,11 +24,11 @@ def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
 	a = df_cfg.loc['NumberOfGenes','2']
 	gen = int(a)
 
-	names_sol = ['model_index','ss_no','percentage']
+	names_sol = ['model_index','ss_no','percentage']+df_prs.iloc[:gen,0].str.replace("Prod_of_","").to_list()
 
-	for i in range(gen):
-		x = df_prs.iloc[i,0].replace("Prod_of_","")
-		names_sol.append(x)
+	#for i in range(gen):
+	#	x = df_prs.iloc[i,0].replace("Prod_of_","")
+	#	names_sol.append(x)
 
 	solution = pd.read_table(sol_path, names = names_sol)
 	solution.to_csv(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/solution.csv", index = False)
