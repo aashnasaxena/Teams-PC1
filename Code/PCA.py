@@ -11,7 +11,7 @@ cwd = os.getcwd()
 
 tlog = open("PCA12_teams.txt","w")
 
-tpdir = "/home/csb/Aashna/Range10/TOPO"
+tpdir = cwd+"/TOPO"
 
 os.chdir(tpdir)
 results = glob.glob("*.topo")
@@ -38,7 +38,6 @@ def pc2var(sol_path):
 def pcncomp(sol_path):
 	df = pd.read_csv(sol_path)
 	df_sol = df.iloc[:,3:]
-	df_sol.drop(columns = ['miR205','miR9','miR30c','VIM','CDH1','KLF8','TCF3'], inplace = True)
 	pca = PCA(0.9).fit(df_sol)
 	df_pca = pca.transform(df_sol)
 	num = pca.n_components_
