@@ -41,6 +41,7 @@ if ITS == True:
     plt.ylabel("Team Strength",{"fontsize":24,"fontweight":"bold","fontfamily":"sans-serif"})
     plt.tight_layout()
     plt.savefig("ITS_box.png",dpi=400)
+    plt.clf()
 
     res = f_oneway(*[piv[col] for col in piv.columns])
     print(res)
@@ -79,6 +80,7 @@ if PC1 == True:
     plt.ylabel("PC1 Variance",{"fontsize":24,"fontweight":"bold","fontfamily":"sans-serif"})
     plt.tight_layout()
     plt.savefig("PC1_box.png",dpi=400)
+    plt.clf()
 
     res = f_oneway(*[piv[col] for col in piv.columns])
     print(res)
@@ -117,6 +119,7 @@ if num == True:
     plt.ylabel("Number of PCs",{"fontsize":24,"fontweight":"bold","fontfamily":"sans-serif"})
     plt.tight_layout()
     plt.savefig("Num_box.png",dpi=400)
+    plt.clf()
 
     res = f_oneway(*[piv[col] for col in piv.columns])
     print(res)
