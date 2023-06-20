@@ -8,7 +8,7 @@ cwd = os.getcwd()
 
 rlog = open("racipe_log.txt", "w")
 
-tpdir = "/home/csb/Aashna/Range10/TOPO"
+tpdir = cwd+"/TOPO"
 
 os.chdir(tpdir)
 results = (glob.glob("*.topo"))

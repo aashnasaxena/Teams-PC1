@@ -7,15 +7,16 @@ from multiprocessing import Pool
 
 cwd = os.getcwd()
 
-tpdir = (cwd+"/TOPO")
+tpdir = (cwd + "/TOPO")
 os.chdir(tpdir)
-tpfl = sorted(glob.glob("*.topo"))
+results = glob.glob("*.topo")
+tpfl = sorted(results)
 
 def rmvsol(cwd,t,n):
 	for file in glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*solution_*.dat"):
 		os.remove(file)
 
-def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
+def gknorm(cwd, t, prs_path, cfg_path, parameter_path, sol_path):
 	#Naming the solution and parameter files:
 
 	df_prs = pd.read_table(prs_path)
@@ -24,14 +25,14 @@ def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
 	a = df_cfg.loc['NumberOfGenes','2']
 	gen = int(a)
 
-	names_sol = ['model_index','ss_no','percentage']+df_prs.iloc[:gen,0].str.replace("Prod_of_","").to_list()
+	names_sol = ['model_index','ss_no','percentage']
 
-	#for i in range(gen):
-	#	x = df_prs.iloc[i,0].replace("Prod_of_","")
-	#	names_sol.append(x)
+	for i in range(gen):
+		x = df_prs.iloc[i,0].replace("Prod_of_","")
+		names_sol.append(x)
 
 	solution = pd.read_table(sol_path, names = names_sol)
-	solution.to_csv(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/solution.csv", index = False)
+	solution.to_csv(cwd + "/Results/" + t[:-5] + "/solution.csv", index = False)
 
 	names_para = ['model_index','ss_no']
 	para_names = df_prs.iloc[:,0].to_list()
@@ -60,7 +61,7 @@ def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
 
 	norm.columns = solution.columns
 
-	norm.to_csv(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/norm.csv", index = False)
+	norm.to_csv(cwd + "/Results/" + t[:-5] + "/norm.csv", index = False)
 
 #for t in tpfl:
 #	for n in range(1,4):
@@ -69,6 +70,6 @@ def gknorm(cwd, t, n, prs_path, cfg_path, parameter_path, sol_path):
 #		sol_path = glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*solution.csv")[0]
 #		gknorm(cwd,t,prs_path,parameter_path,sol_path) 
 
-with Pool(60) as pool:
-	pool.starmap(gknorm, [(cwd,t,n,glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*.prs")[0], glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*.cfg")[0], glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*parameters.dat")[0],glob.glob(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/*solution.dat")[0]) for t in tpfl for n in range(1,4)])
+with Pool(45) as pool:
+	pool.starmap(gknorm, [(cwd,t,glob.glob(cwd + "/Results/" + t[:-5] + "/*.prs")[0], glob.glob(cwd + "/Results/" + t[:-5] + "/*.cfg")[0], glob.glob(cwd + "/Results/" + t[:-5] + "/*parameters.dat")[0],glob.glob(cwd + "/Results/" + t[:-5] + "/*solution.dat")[0]) for t in tpfl])
 

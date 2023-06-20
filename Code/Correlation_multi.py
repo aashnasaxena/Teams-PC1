@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 cwd = os.getcwd()
-tpdir = "/home/csb/Aashna/Range10/TOPO"
+tpdir = cwd+"/TOPO"
 tlog = open("correlation_teams.txt","w")
 
 
@@ -24,36 +24,13 @@ def Correlation_Matrix(sol_path,cwd,t,n):
 	df = pd.read_csv(sol_path)
 	df1 = df.iloc[:,3:]
 	df2 = df1.corr(method = 'spearman')
-	#nodes = df1.columns
-	#d = hi.distance.pdist(df2)
-	#L = hi.linkage(d, method = 'complete')
-	#clust = hi.cut_tree(L, n_clusters = 2)
-	#cluster = np.transpose(clust)
-	#t1 = nodes[cluster[0] == 0]
-	#t2 = nodes[cluster[0] == 1]
-	#tot = t1.append(t2)
-	#df_clust = df2.loc[tot,:].T.loc[tot,:]
 	df2.sort_index(axis = 0, inplace = True)
 	df2.sort_index(axis = 1, inplace = True)
 	df2.to_csv(cwd + "/Results/" + t[:-5] + "/" + str(n) + "/" + t[:-5] + "_correlation.csv")
 
-#Get Correlation Figure
-def Correlation_fig(correlation_path, cwd, t,tpfl,n):
-	df_clust = pd.read_csv(correlation_path)
-	df_clust.set_index("Unnamed: 0", inplace = True)
-	d = hi.distance.pdist(df_clust)
-	L = hi.linkage(d, method = "complete")
-	sns.set(rc={'figure.figsize':(16,16)})
-	sns.set_context("paper", rc={"font.weight":'bold',"legend.fontsize":8,"legend.title_fontsize":10,"font.size":8,"axes.titlesize":8,"axes.labelsize":8,"xtick.labelsize":10,"ytick.labelsize":10})
-	ax = sns.clustermap(data = df_clust, method = "complete", annot = True, cmap = "coolwarm", row_linkage = L, col_linkage = L)
-	plt.savefig(cwd + "/Results/" + tpfl[t][:-5] + "/" + str(n) + "/" + tpfl[t][:-5] + "_correlation.png", dpi = 400, pad_inches = 0)
-	plt.clf()
-
 #Get Team Strength
 def Team_Strength(correlation_path,t,tpfl):
-	df_clust = pd.read_csv(correlation_path)
-	df_clust.set_index("Unnamed: 0", inplace = True)
-	df_clust.drop(index = ['miR205','miR30c','miR9','VIM','CDH1','KLF8','TCF3'], columns = ['miR205','miR30c','miR9','VIM','CDH1','KLF8','TCF3'], inplace = True)
+	df_clust = pd.read_csv(correlation_path,index_col=0)
 	nodes = df_clust.columns
 	d = hi.distance.pdist(df_clust)
 	L = hi.linkage(d, method = "complete")
