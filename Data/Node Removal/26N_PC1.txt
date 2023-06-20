@@ -1,0 +1,2 @@
+F-statistic 793.5302023212803
+p-value 0.0
