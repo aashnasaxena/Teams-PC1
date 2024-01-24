@@ -1,0 +1,12 @@
+Source Target Type
+lac_operon lac_mRNA 1
+lac_enzymes lactose_breakdown 1
+betaGal_LOF_mutation lactose_breakdown 2
+allolactose lac_repressor 2
+lactose allolactose 1
+cAMP CAP 1
+CAP lac_operon 1
+lac_repressor lac_operon 2
+glucose cAMP 2
+lactose_breakdown cAMP 2
+lac_mRNA lac_enzymes 1

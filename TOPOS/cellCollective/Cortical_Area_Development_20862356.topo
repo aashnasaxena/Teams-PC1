@@ -1,0 +1,15 @@
+Source Target Type
+Fgf8 Sp8 1
+Emx2 Sp8 2
+Fgf8 Coup_fti 2
+Sp8 Coup_fti 2
+Sp8 Pax6 1
+Coup_fti Pax6 2
+Emx2 Pax6 2
+Fgf8 Fgf8 1
+Sp8 Fgf8 1
+Emx2 Fgf8 2
+Coup_fti Emx2 1
+Fgf8 Emx2 2
+Sp8 Emx2 2
+Pax6 Emx2 2
