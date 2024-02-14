@@ -6,3 +6,4 @@
 - **inflCalc.py** - Generates influence matrices from the topology file and stores them in a directory InfMat. Analyses the matrices and creates a csv file of influence team strength (ITS) of all networks, along with a text file of team compositions of all networks.
 - **tsCalc.py** - Hierarchically clusters the influence matrix of each topo file and stores its team composition in a directory TeamsCalc, along with a csv of compiled team strengths of all networks.
 - **PCA.py** - Analyses g/k normalized solution files to create csvs of PC1 variance, PC2 variance, and Number of PCs to cover 90% variance.
+- **artifical.py** - Generates artificial networks of different densities with team structure
