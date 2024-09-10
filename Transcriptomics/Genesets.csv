@@ -1,0 +1,743 @@
+GeneSetID,Genes
+SCLC,BEX1
+SCLC,ASCL1
+SCLC,INSM1
+SCLC,CHGA
+SCLC,TAGLN3
+SCLC,KIF5C
+SCLC,CRMP1
+SCLC,SCG3
+SCLC,SYT4
+SCLC,RTN1
+SCLC,MYT1
+SCLC,SYP
+SCLC,KIF1A
+SCLC,TMSB15A
+SCLC,SYN1
+SCLC,SYT11
+SCLC,RUNDC3A
+SCLC,TFF3
+SCLC,CHGB
+SCLC,FAM57B
+SCLC,SH3GL2
+SCLC,BSN
+SCLC,SEZ6
+SCLC,TMSB15B
+SCLC,CELF3
+SCLC,RAB27B
+SCLC,TGFBR2
+SCLC,SLC16A5
+SCLC,S100A10
+SCLC,ITGB4
+SCLC,YAP1
+SCLC,LGALS3
+SCLC,EPHA2
+SCLC,S100A16
+SCLC,PLAU
+SCLC,ABCC3
+SCLC,ARHGDIB
+SCLC,CYR61
+SCLC,PTGES
+SCLC,CCND1
+SCLC,IFITM2
+SCLC,IFITM3
+SCLC,AHNAK
+SCLC,CAV2
+SCLC,TACSTD2
+SCLC,TGFBI
+SCLC,EMP1
+SCLC,CAV1
+SCLC,ANXA1
+SCLC,MYOF
+EMT,CDH1
+EMT,CDH11
+EMT,CLDN2
+EMT,CLDN4
+EMT,DDR2
+EMT,EPCAM
+EMT,ESRP1
+EMT,FAP
+EMT,GLI1
+EMT,KRT18
+EMT,KRT19
+EMT,KRT20
+EMT,KRT7
+EMT,KRT8
+EMT,LUM
+EMT,MUC1
+EMT,PALLD
+EMT,PDGFRB
+EMT,PDPN
+EMT,POSTN
+EMT,SPARC
+EMT,TNC
+Alveolar Fibrotic- Epithelial,A2M
+Alveolar Fibrotic- Epithelial,ABCA6
+Alveolar Fibrotic- Epithelial,ADAMTS8
+Alveolar Fibrotic- Epithelial,ADARB1
+Alveolar Fibrotic- Epithelial,ADH1B
+Alveolar Fibrotic- Epithelial,ALDH1A1
+Alveolar Fibrotic- Epithelial,ANGPT1
+Alveolar Fibrotic- Epithelial,ANO1
+Alveolar Fibrotic- Epithelial,ANXA1
+Alveolar Fibrotic- Epithelial,AOC3
+Alveolar Fibrotic- Epithelial,ARHGAP20
+Alveolar Fibrotic- Epithelial,BMP5
+Alveolar Fibrotic- Epithelial,CAMK2N1
+Alveolar Fibrotic- Epithelial,CASP12
+Alveolar Fibrotic- Epithelial,CASP4
+Alveolar Fibrotic- Epithelial,CD14
+Alveolar Fibrotic- Epithelial,CD82
+Alveolar Fibrotic- Epithelial,CD8A
+Alveolar Fibrotic- Epithelial,CDH11
+Alveolar Fibrotic- Epithelial,CDH13
+Alveolar Fibrotic- Epithelial,CDO1
+Alveolar Fibrotic- Epithelial,CES1
+Alveolar Fibrotic- Epithelial,CHRDL1
+Alveolar Fibrotic- Epithelial,CMKLR1
+Alveolar Fibrotic- Epithelial,COL13A1
+Alveolar Fibrotic- Epithelial,COL6A3
+Alveolar Fibrotic- Epithelial,COL6A6
+Alveolar Fibrotic- Epithelial,COLEC12
+Alveolar Fibrotic- Epithelial,CYP3A5
+Alveolar Fibrotic- Epithelial,CYP7B1
+Alveolar Fibrotic- Epithelial,DHRS3
+Alveolar Fibrotic- Epithelial,DKK3
+Alveolar Fibrotic- Epithelial,DYNC2LI1
+Alveolar Fibrotic- Epithelial,EFCC1
+Alveolar Fibrotic- Epithelial,ELMO1
+Alveolar Fibrotic- Epithelial,ENPP2
+Alveolar Fibrotic- Epithelial,F11R
+Alveolar Fibrotic- Epithelial,FGFR4
+Alveolar Fibrotic- Epithelial,FIBIN
+Alveolar Fibrotic- Epithelial,FMO2
+Alveolar Fibrotic- Epithelial,FMO3
+Alveolar Fibrotic- Epithelial,G0S2
+Alveolar Fibrotic- Epithelial,GDF10
+Alveolar Fibrotic- Epithelial,GPC3
+Alveolar Fibrotic- Epithelial,GPM6B
+Alveolar Fibrotic- Epithelial,GRIA1
+Alveolar Fibrotic- Epithelial,HIVEP3
+Alveolar Fibrotic- Epithelial,HMCN1
+Alveolar Fibrotic- Epithelial,HSD11B1
+Alveolar Fibrotic- Epithelial,IGSF10
+Alveolar Fibrotic- Epithelial,IL15RA
+Alveolar Fibrotic- Epithelial,INMT
+Alveolar Fibrotic- Epithelial,IRS2
+Alveolar Fibrotic- Epithelial,ISLR
+Alveolar Fibrotic- Epithelial,ITGA2
+Alveolar Fibrotic- Epithelial,ITGA8
+Alveolar Fibrotic- Epithelial,KANK4
+Alveolar Fibrotic- Epithelial,KCNK6
+Alveolar Fibrotic- Epithelial,KIFC3
+Alveolar Fibrotic- Epithelial,LAMA4
+Alveolar Fibrotic- Epithelial,LBH
+Alveolar Fibrotic- Epithelial,LIMS1
+Alveolar Fibrotic- Epithelial,LINC00968
+Alveolar Fibrotic- Epithelial,LITAF
+Alveolar Fibrotic- Epithelial,LMCD1
+Alveolar Fibrotic- Epithelial,LRRN3
+Alveolar Fibrotic- Epithelial,LSAMP
+Alveolar Fibrotic- Epithelial,LTBP4
+Alveolar Fibrotic- Epithelial,LUM
+Alveolar Fibrotic- Epithelial,MACF1
+Alveolar Fibrotic- Epithelial,MAL
+Alveolar Fibrotic- Epithelial,MAMDC2
+Alveolar Fibrotic- Epithelial,MAOB
+Alveolar Fibrotic- Epithelial,MCOLN2
+Alveolar Fibrotic- Epithelial,MCOLN3
+Alveolar Fibrotic- Epithelial,METTL7A
+Alveolar Fibrotic- Epithelial,MFAP4
+Alveolar Fibrotic- Epithelial,MME
+Alveolar Fibrotic- Epithelial,MMP19
+Alveolar Fibrotic- Epithelial,MMP2
+Alveolar Fibrotic- Epithelial,MOXD1
+Alveolar Fibrotic- Epithelial,MRC2
+Alveolar Fibrotic- Epithelial,MYH10
+Alveolar Fibrotic- Epithelial,NABP1
+Alveolar Fibrotic- Epithelial,NCAM2
+Alveolar Fibrotic- Epithelial,NEBL
+Alveolar Fibrotic- Epithelial,NPNT
+Alveolar Fibrotic- Epithelial,NRP1
+Alveolar Fibrotic- Epithelial,NTNG1
+Alveolar Fibrotic- Epithelial,NUAK1
+Alveolar Fibrotic- Epithelial,OLFML3
+Alveolar Fibrotic- Epithelial,OR7E47P
+Alveolar Fibrotic- Epithelial,PDGFRA
+Alveolar Fibrotic- Epithelial,PER2
+Alveolar Fibrotic- Epithelial,PGAP2
+Alveolar Fibrotic- Epithelial,PIEZO2
+Alveolar Fibrotic- Epithelial,PLEKHH2
+Alveolar Fibrotic- Epithelial,PLXDC2
+Alveolar Fibrotic- Epithelial,PRELP
+Alveolar Fibrotic- Epithelial,PRG4
+Alveolar Fibrotic- Epithelial,PTGIR
+Alveolar Fibrotic- Epithelial,RARRES2
+Alveolar Fibrotic- Epithelial,RGS3
+Alveolar Fibrotic- Epithelial,ROBO2
+Alveolar Fibrotic- Epithelial,S1PR2
+Alveolar Fibrotic- Epithelial,SAMHD1
+Alveolar Fibrotic- Epithelial,SAT1
+Alveolar Fibrotic- Epithelial,SCN7A
+Alveolar Fibrotic- Epithelial,SERPINB9
+Alveolar Fibrotic- Epithelial,SERPING1
+Alveolar Fibrotic- Epithelial,SGCD
+Alveolar Fibrotic- Epithelial,SGCG
+Alveolar Fibrotic- Epithelial,SLC1A5
+Alveolar Fibrotic- Epithelial,SLC29A1
+Alveolar Fibrotic- Epithelial,SLC38A5
+Alveolar Fibrotic- Epithelial,SLIT2
+Alveolar Fibrotic- Epithelial,SNCA
+Alveolar Fibrotic- Epithelial,SRGAP1
+Alveolar Fibrotic- Epithelial,SRGN
+Alveolar Fibrotic- Epithelial,SVEP1
+Alveolar Fibrotic- Epithelial,TCF21
+Alveolar Fibrotic- Epithelial,TGM2
+Alveolar Fibrotic- Epithelial,TMEM108
+Alveolar Fibrotic- Epithelial,TMEM119
+Alveolar Fibrotic- Epithelial,TMEM176A
+Alveolar Fibrotic- Epithelial,TMEM176B
+Alveolar Fibrotic- Epithelial,TMEM37
+Alveolar Fibrotic- Epithelial,UCP2
+Alveolar Fibrotic- Epithelial,ULK4
+Alveolar Fibrotic- Epithelial,USP53
+Alveolar Fibrotic- Epithelial,VEGFC
+Alveolar Fibrotic- Epithelial,WNT2
+Alveolar Fibrotic- Epithelial,ZDHHC14
+Alveolar Fibrotic- Epithelial,ZNF106
+Alveolar Fibrotic- Epithelial,ZYX
+Alveolar Fibrotic- Epithelial,ABCA1
+Alveolar Fibrotic- Epithelial,ABCA7
+Alveolar Fibrotic- Epithelial,ABLIM1
+Alveolar Fibrotic- Epithelial,ACAA2
+Alveolar Fibrotic- Epithelial,ACKR4
+Alveolar Fibrotic- Epithelial,ACTB
+Alveolar Fibrotic- Epithelial,ACTG1
+Alveolar Fibrotic- Epithelial,ADRB1
+Alveolar Fibrotic- Epithelial,ADRB2
+Alveolar Fibrotic- Epithelial,AGER
+Alveolar Fibrotic- Epithelial,AGRN
+Alveolar Fibrotic- Epithelial,AGTPBP1
+Alveolar Fibrotic- Epithelial,AHNAK
+Alveolar Fibrotic- Epithelial,ALDH3A2
+Alveolar Fibrotic- Epithelial,ALS2CL
+Alveolar Fibrotic- Epithelial,ANGPTL2
+Alveolar Fibrotic- Epithelial,ANKRD1
+Alveolar Fibrotic- Epithelial,ANKRD29
+Alveolar Fibrotic- Epithelial,ANKS1A
+Alveolar Fibrotic- Epithelial,ANO6
+Alveolar Fibrotic- Epithelial,ANOS1
+Alveolar Fibrotic- Epithelial,ANXA2
+Alveolar Fibrotic- Epithelial,ANXA3
+Alveolar Fibrotic- Epithelial,APLP2
+Alveolar Fibrotic- Epithelial,AQP4
+Alveolar Fibrotic- Epithelial,ARAP2
+Alveolar Fibrotic- Epithelial,ARHGAP29
+Alveolar Fibrotic- Epithelial,ARHGEF26
+Alveolar Fibrotic- Epithelial,ARL6IP5
+Alveolar Fibrotic- Epithelial,ARPC5
+Alveolar Fibrotic- Epithelial,ATF3
+Alveolar Fibrotic- Epithelial,ATOH8
+Alveolar Fibrotic- Epithelial,ATP11A
+Alveolar Fibrotic- Epithelial,ATP1B3
+Alveolar Fibrotic- Epithelial,ATP2B4
+Alveolar Fibrotic- Epithelial,B2M
+Alveolar Fibrotic- Epithelial,B3GNT2
+Alveolar Fibrotic- Epithelial,B3GNT7
+Alveolar Fibrotic- Epithelial,B3GNT8
+Alveolar Fibrotic- Epithelial,B4GALT1
+Alveolar Fibrotic- Epithelial,BCAP31
+Alveolar Fibrotic- Epithelial,BDNF
+Alveolar Fibrotic- Epithelial,C10orf67
+Alveolar Fibrotic- Epithelial,C14orf132
+Alveolar Fibrotic- Epithelial,C1orf198
+Alveolar Fibrotic- Epithelial,CADM1
+Alveolar Fibrotic- Epithelial,CAPN2
+Alveolar Fibrotic- Epithelial,CAV1
+Alveolar Fibrotic- Epithelial,CAV2
+Alveolar Fibrotic- Epithelial,CD151
+Alveolar Fibrotic- Epithelial,CD47
+Alveolar Fibrotic- Epithelial,CD55
+Alveolar Fibrotic- Epithelial,CD63
+Alveolar Fibrotic- Epithelial,CD9
+Alveolar Fibrotic- Epithelial,CDKN1A
+Alveolar Fibrotic- Epithelial,CDKN2B
+Alveolar Fibrotic- Epithelial,CEACAM6
+Alveolar Fibrotic- Epithelial,CELF2
+Alveolar Fibrotic- Epithelial,CFL2
+Alveolar Fibrotic- Epithelial,CFLAR
+Alveolar Fibrotic- Epithelial,CGN
+Alveolar Fibrotic- Epithelial,CKB
+Alveolar Fibrotic- Epithelial,CLDN18
+Alveolar Fibrotic- Epithelial,CLDN4
+Alveolar Fibrotic- Epithelial,CLDN7
+Alveolar Fibrotic- Epithelial,CLIC2
+Alveolar Fibrotic- Epithelial,CLIC3
+Alveolar Fibrotic- Epithelial,CLIC5
+Alveolar Fibrotic- Epithelial,CLIP4
+Alveolar Fibrotic- Epithelial,CNPPD1
+Alveolar Fibrotic- Epithelial,CNTN6
+Alveolar Fibrotic- Epithelial,COL12A1
+Alveolar Fibrotic- Epithelial,COL4A1
+Alveolar Fibrotic- Epithelial,COL4A2
+Alveolar Fibrotic- Epithelial,COL4A3
+Alveolar Fibrotic- Epithelial,COL4A4
+Alveolar Fibrotic- Epithelial,COMT
+Alveolar Fibrotic- Epithelial,CPM
+Alveolar Fibrotic- Epithelial,CRIP2
+Alveolar Fibrotic- Epithelial,CRYAB
+Alveolar Fibrotic- Epithelial,CST6
+Alveolar Fibrotic- Epithelial,CUX1
+Alveolar Fibrotic- Epithelial,CXCL16
+Alveolar Fibrotic- Epithelial,CYBRD1
+Alveolar Fibrotic- Epithelial,CYSTM1
+Alveolar Fibrotic- Epithelial,DAD1
+Alveolar Fibrotic- Epithelial,DAPK2
+Alveolar Fibrotic- Epithelial,DENND3
+Alveolar Fibrotic- Epithelial,DIPK2A
+Alveolar Fibrotic- Epithelial,DLC1
+Alveolar Fibrotic- Epithelial,DNAJB1
+Alveolar Fibrotic- Epithelial,DOCK11
+Alveolar Fibrotic- Epithelial,DPYSL2
+Alveolar Fibrotic- Epithelial,DUSP7
+Alveolar Fibrotic- Epithelial,ECEL1P2
+Alveolar Fibrotic- Epithelial,EDN1
+Alveolar Fibrotic- Epithelial,EFEMP1
+Alveolar Fibrotic- Epithelial,EFNA1
+Alveolar Fibrotic- Epithelial,EFR3B
+Alveolar Fibrotic- Epithelial,EHD1
+Alveolar Fibrotic- Epithelial,EHD2
+Alveolar Fibrotic- Epithelial,ELOVL5
+Alveolar Fibrotic- Epithelial,EPB41L3
+Alveolar Fibrotic- Epithelial,EPB41L5
+Alveolar Fibrotic- Epithelial,EPCAM
+Alveolar Fibrotic- Epithelial,EPS8L2
+Alveolar Fibrotic- Epithelial,ERRFI1
+Alveolar Fibrotic- Epithelial,EVA1A
+Alveolar Fibrotic- Epithelial,EYA4
+Alveolar Fibrotic- Epithelial,FADS3
+Alveolar Fibrotic- Epithelial,FAM189A2
+Alveolar Fibrotic- Epithelial,FAS
+Alveolar Fibrotic- Epithelial,FERMT2
+Alveolar Fibrotic- Epithelial,FILIP1
+Alveolar Fibrotic- Epithelial,FKBP9
+Alveolar Fibrotic- Epithelial,FLNA
+Alveolar Fibrotic- Epithelial,FOLR1
+Alveolar Fibrotic- Epithelial,FSTL3
+Alveolar Fibrotic- Epithelial,FZD5
+Alveolar Fibrotic- Epithelial,GADD45B
+Alveolar Fibrotic- Epithelial,GALK1
+Alveolar Fibrotic- Epithelial,GALNT18
+Alveolar Fibrotic- Epithelial,GAS6
+Alveolar Fibrotic- Epithelial,GGT1
+Alveolar Fibrotic- Epithelial,GGTLC1
+Alveolar Fibrotic- Epithelial,GJA1
+Alveolar Fibrotic- Epithelial,GKN2
+Alveolar Fibrotic- Epithelial,GLS
+Alveolar Fibrotic- Epithelial,GOLGA8A
+Alveolar Fibrotic- Epithelial,GPM6A
+Alveolar Fibrotic- Epithelial,GPRC5A
+Alveolar Fibrotic- Epithelial,GPRIN2
+Alveolar Fibrotic- Epithelial,GRK5
+Alveolar Fibrotic- Epithelial,H3-3B
+Alveolar Fibrotic- Epithelial,HACD1
+Alveolar Fibrotic- Epithelial,HBEGF
+Alveolar Fibrotic- Epithelial,HCFC1R1
+Alveolar Fibrotic- Epithelial,HEBP1
+Alveolar Fibrotic- Epithelial,HEG1
+Alveolar Fibrotic- Epithelial,HIP1
+Alveolar Fibrotic- Epithelial,HLA-C
+Alveolar Fibrotic- Epithelial,HOPX
+Alveolar Fibrotic- Epithelial,HPCAL1
+Alveolar Fibrotic- Epithelial,HSPB1
+Alveolar Fibrotic- Epithelial,HSPB8
+Alveolar Fibrotic- Epithelial,HSPG2
+Alveolar Fibrotic- Epithelial,HYAL1
+Alveolar Fibrotic- Epithelial,IGFBP7
+Alveolar Fibrotic- Epithelial,IL18
+Alveolar Fibrotic- Epithelial,IL32
+Alveolar Fibrotic- Epithelial,INF2
+Alveolar Fibrotic- Epithelial,INSIG2
+Alveolar Fibrotic- Epithelial,IRF1
+Alveolar Fibrotic- Epithelial,ISG20
+Alveolar Fibrotic- Epithelial,ITGA3
+Alveolar Fibrotic- Epithelial,ITLN2
+Alveolar Fibrotic- Epithelial,ITM2B
+Alveolar Fibrotic- Epithelial,ITPRIP
+Alveolar Fibrotic- Epithelial,JADE1
+Alveolar Fibrotic- Epithelial,KCNN3
+Alveolar Fibrotic- Epithelial,KHDRBS2
+Alveolar Fibrotic- Epithelial,KIF5B
+Alveolar Fibrotic- Epithelial,KLF2
+Alveolar Fibrotic- Epithelial,KLF6
+Alveolar Fibrotic- Epithelial,KLK7
+Alveolar Fibrotic- Epithelial,KRT18
+Alveolar Fibrotic- Epithelial,KRT19
+Alveolar Fibrotic- Epithelial,KRT7
+Alveolar Fibrotic- Epithelial,KRT8
+Alveolar Fibrotic- Epithelial,LAMA3
+Alveolar Fibrotic- Epithelial,LAMB3
+Alveolar Fibrotic- Epithelial,LAMC1
+Alveolar Fibrotic- Epithelial,LAMC2
+Alveolar Fibrotic- Epithelial,LAPTM4A
+Alveolar Fibrotic- Epithelial,LGALS3
+Alveolar Fibrotic- Epithelial,LIMS2
+Alveolar Fibrotic- Epithelial,LMO7
+Alveolar Fibrotic- Epithelial,LMTK2
+Alveolar Fibrotic- Epithelial,LPCAT3
+Alveolar Fibrotic- Epithelial,LRRN4
+Alveolar Fibrotic- Epithelial,MALAT1
+Alveolar Fibrotic- Epithelial,MAP2
+Alveolar Fibrotic- Epithelial,MAP7D1
+Alveolar Fibrotic- Epithelial,MATN3
+Alveolar Fibrotic- Epithelial,MGAT3
+Alveolar Fibrotic- Epithelial,MGLL
+Alveolar Fibrotic- Epithelial,MS4A15
+Alveolar Fibrotic- Epithelial,MSLN
+Alveolar Fibrotic- Epithelial,MT1E
+Alveolar Fibrotic- Epithelial,MT1X
+Alveolar Fibrotic- Epithelial,MT2A
+Alveolar Fibrotic- Epithelial,MVB12B
+Alveolar Fibrotic- Epithelial,MYL12A
+Alveolar Fibrotic- Epithelial,MYL12B
+Alveolar Fibrotic- Epithelial,MYL6
+Alveolar Fibrotic- Epithelial,MYL9
+Alveolar Fibrotic- Epithelial,MYO1B
+Alveolar Fibrotic- Epithelial,MYO1C
+Alveolar Fibrotic- Epithelial,MYRF
+Alveolar Fibrotic- Epithelial,N4BP1
+Alveolar Fibrotic- Epithelial,NBEAL2
+Alveolar Fibrotic- Epithelial,NCKAP5
+Alveolar Fibrotic- Epithelial,NDNF
+Alveolar Fibrotic- Epithelial,NDST1
+Alveolar Fibrotic- Epithelial,NEAT1
+Alveolar Fibrotic- Epithelial,NEDD4L
+Alveolar Fibrotic- Epithelial,NEDD9
+Alveolar Fibrotic- Epithelial,NEXN
+Alveolar Fibrotic- Epithelial,NGF
+Alveolar Fibrotic- Epithelial,NHSL1
+Alveolar Fibrotic- Epithelial,NTM
+Alveolar Fibrotic- Epithelial,NXN
+Alveolar Fibrotic- Epithelial,OPN3
+Alveolar Fibrotic- Epithelial,OSGIN1
+Alveolar Fibrotic- Epithelial,OSGIN2
+Alveolar Fibrotic- Epithelial,OTUD1
+Alveolar Fibrotic- Epithelial,P3H2
+Alveolar Fibrotic- Epithelial,P4HA2
+Alveolar Fibrotic- Epithelial,PAPSS2
+Alveolar Fibrotic- Epithelial,PARD6B
+Alveolar Fibrotic- Epithelial,PARP14
+Alveolar Fibrotic- Epithelial,PAX8-AS1
+Alveolar Fibrotic- Epithelial,PCYOX1
+Alveolar Fibrotic- Epithelial,PDGFA
+Alveolar Fibrotic- Epithelial,PDLIM3
+Alveolar Fibrotic- Epithelial,PDPN
+Alveolar Fibrotic- Epithelial,PDZD2
+Alveolar Fibrotic- Epithelial,PEAK1
+Alveolar Fibrotic- Epithelial,PEBP4
+Alveolar Fibrotic- Epithelial,PFKFB3
+Alveolar Fibrotic- Epithelial,PGM1
+Alveolar Fibrotic- Epithelial,PHLDB2
+Alveolar Fibrotic- Epithelial,PIEZO1
+Alveolar Fibrotic- Epithelial,PKDCC
+Alveolar Fibrotic- Epithelial,PLAC8
+Alveolar Fibrotic- Epithelial,PLCE1
+Alveolar Fibrotic- Epithelial,PLEKHA1
+Alveolar Fibrotic- Epithelial,PLEKHO1
+Alveolar Fibrotic- Epithelial,PLLP
+Alveolar Fibrotic- Epithelial,PLS3
+Alveolar Fibrotic- Epithelial,PNPLA2
+Alveolar Fibrotic- Epithelial,POLR2L
+Alveolar Fibrotic- Epithelial,PON2
+Alveolar Fibrotic- Epithelial,PPFIBP1
+Alveolar Fibrotic- Epithelial,PPP1R15A
+Alveolar Fibrotic- Epithelial,PRDX1
+Alveolar Fibrotic- Epithelial,PRKCZ
+Alveolar Fibrotic- Epithelial,PROS1
+Alveolar Fibrotic- Epithelial,PRR5L
+Alveolar Fibrotic- Epithelial,PRSS8
+Alveolar Fibrotic- Epithelial,PTGS2
+Alveolar Fibrotic- Epithelial,PTPN1
+Alveolar Fibrotic- Epithelial,PTPN21
+Alveolar Fibrotic- Epithelial,PTPRE
+Alveolar Fibrotic- Epithelial,RAB11FIP1
+Alveolar Fibrotic- Epithelial,RAB31
+Alveolar Fibrotic- Epithelial,RAB32
+Alveolar Fibrotic- Epithelial,RANBP17
+Alveolar Fibrotic- Epithelial,RASAL2
+Alveolar Fibrotic- Epithelial,RASSF8
+Alveolar Fibrotic- Epithelial,RBP1
+Alveolar Fibrotic- Epithelial,RDX
+Alveolar Fibrotic- Epithelial,RHOF
+Alveolar Fibrotic- Epithelial,RIN2
+Alveolar Fibrotic- Epithelial,RIPK2
+Alveolar Fibrotic- Epithelial,RNASE1
+Alveolar Fibrotic- Epithelial,RNF128
+Alveolar Fibrotic- Epithelial,RNF213
+Alveolar Fibrotic- Epithelial,ROR1
+Alveolar Fibrotic- Epithelial,RRAS
+Alveolar Fibrotic- Epithelial,RTKN2
+Alveolar Fibrotic- Epithelial,S100A10
+Alveolar Fibrotic- Epithelial,SAMD4A
+Alveolar Fibrotic- Epithelial,SBDS
+Alveolar Fibrotic- Epithelial,SBSPON
+Alveolar Fibrotic- Epithelial,SCD5
+Alveolar Fibrotic- Epithelial,SCEL
+Alveolar Fibrotic- Epithelial,SCNN1B
+Alveolar Fibrotic- Epithelial,SDC1
+Alveolar Fibrotic- Epithelial,SDCBP
+Alveolar Fibrotic- Epithelial,SEMA3B
+Alveolar Fibrotic- Epithelial,SEMA3E
+Alveolar Fibrotic- Epithelial,SEMA5A
+Alveolar Fibrotic- Epithelial,SEMA6D
+Alveolar Fibrotic- Epithelial,SFN
+Alveolar Fibrotic- Epithelial,SFTA1P
+Alveolar Fibrotic- Epithelial,SGCE
+Alveolar Fibrotic- Epithelial,SH2D4A
+Alveolar Fibrotic- Epithelial,SLC1A1
+Alveolar Fibrotic- Epithelial,SLC2A3
+Alveolar Fibrotic- Epithelial,SLC39A13
+Alveolar Fibrotic- Epithelial,SLC39A8
+Alveolar Fibrotic- Epithelial,SLC40A1
+Alveolar Fibrotic- Epithelial,SLC6A4
+Alveolar Fibrotic- Epithelial,SLC7A6
+Alveolar Fibrotic- Epithelial,SLC7A7
+Alveolar Fibrotic- Epithelial,SMAD7
+Alveolar Fibrotic- Epithelial,SNAP23
+Alveolar Fibrotic- Epithelial,SNX21
+Alveolar Fibrotic- Epithelial,SNX22
+Alveolar Fibrotic- Epithelial,SPARC
+Alveolar Fibrotic- Epithelial,SPINT1
+Alveolar Fibrotic- Epithelial,SPOCK2
+Alveolar Fibrotic- Epithelial,SPRING1
+Alveolar Fibrotic- Epithelial,SPRYD7
+Alveolar Fibrotic- Epithelial,SPTAN1
+Alveolar Fibrotic- Epithelial,SRGAP2B
+Alveolar Fibrotic- Epithelial,SSR2
+Alveolar Fibrotic- Epithelial,ST3GAL4
+Alveolar Fibrotic- Epithelial,ST6GALNAC5
+Alveolar Fibrotic- Epithelial,STX11
+Alveolar Fibrotic- Epithelial,STX12
+Alveolar Fibrotic- Epithelial,STX3
+Alveolar Fibrotic- Epithelial,SULT1A1
+Alveolar Fibrotic- Epithelial,SULT1A2
+Alveolar Fibrotic- Epithelial,SULT2B1
+Alveolar Fibrotic- Epithelial,SUSD2
+Alveolar Fibrotic- Epithelial,SYNGR2
+Alveolar Fibrotic- Epithelial,TACC1
+Alveolar Fibrotic- Epithelial,TACSTD2
+Alveolar Fibrotic- Epithelial,TAGLN
+Alveolar Fibrotic- Epithelial,TBC1D2
+Alveolar Fibrotic- Epithelial,TES
+Alveolar Fibrotic- Epithelial,TGFBR2
+Alveolar Fibrotic- Epithelial,TIMP2
+Alveolar Fibrotic- Epithelial,TM4SF1
+Alveolar Fibrotic- Epithelial,TMEM109
+Alveolar Fibrotic- Epithelial,TMEM139
+Alveolar Fibrotic- Epithelial,TMEM179B
+Alveolar Fibrotic- Epithelial,TMEM59
+Alveolar Fibrotic- Epithelial,TMOD3
+Alveolar Fibrotic- Epithelial,TMPRSS2
+Alveolar Fibrotic- Epithelial,TMSB4X
+Alveolar Fibrotic- Epithelial,TNFAIP1
+Alveolar Fibrotic- Epithelial,TNFRSF12A
+Alveolar Fibrotic- Epithelial,TNNC1
+Alveolar Fibrotic- Epithelial,TNS1
+Alveolar Fibrotic- Epithelial,TOR1AIP2
+Alveolar Fibrotic- Epithelial,TPM4
+Alveolar Fibrotic- Epithelial,TPPP
+Alveolar Fibrotic- Epithelial,TRIM16
+Alveolar Fibrotic- Epithelial,TSC22D2
+Alveolar Fibrotic- Epithelial,TSPAN13
+Alveolar Fibrotic- Epithelial,TSPAN15
+Alveolar Fibrotic- Epithelial,TSPAN4
+Alveolar Fibrotic- Epithelial,TSPAN7
+Alveolar Fibrotic- Epithelial,TTC7A
+Alveolar Fibrotic- Epithelial,TTLL7
+Alveolar Fibrotic- Epithelial,TUBA4A
+Alveolar Fibrotic- Epithelial,TUBB6
+Alveolar Fibrotic- Epithelial,TXNDC11
+Alveolar Fibrotic- Epithelial,UBC
+Alveolar Fibrotic- Epithelial,UNC13D
+Alveolar Fibrotic- Epithelial,UPK3B
+Alveolar Fibrotic- Epithelial,VCL
+Alveolar Fibrotic- Epithelial,VEGFA
+Alveolar Fibrotic- Epithelial,VSIG2
+Alveolar Fibrotic- Epithelial,WASF3
+Alveolar Fibrotic- Epithelial,WFS1
+Alveolar Fibrotic- Epithelial,WNT3A
+Alveolar Fibrotic- Epithelial,WNT7A
+Alveolar Fibrotic- Epithelial,WWC2
+Alveolar Fibrotic- Epithelial,YWHAH
+Alveolar Fibrotic- Epithelial,ZBED2
+Alveolar Fibrotic- Epithelial,ZFP36
+Alveolar Fibrotic- Epithelial,ZFYVE9
+Alveolar Fibrotic- Epithelial,ABCA3
+Alveolar Fibrotic- Epithelial,ACADL
+Alveolar Fibrotic- Epithelial,ACSL4
+Alveolar Fibrotic- Epithelial,AGPAT2
+Alveolar Fibrotic- Epithelial,AK1
+Alveolar Fibrotic- Epithelial,AKAP13
+Alveolar Fibrotic- Epithelial,ALOX15B
+Alveolar Fibrotic- Epithelial,ALPL
+Alveolar Fibrotic- Epithelial,AQP1
+Alveolar Fibrotic- Epithelial,AREG
+Alveolar Fibrotic- Epithelial,ASRGL1
+Alveolar Fibrotic- Epithelial,BLVRB
+Alveolar Fibrotic- Epithelial,BMP2
+Alveolar Fibrotic- Epithelial,C11orf96
+Alveolar Fibrotic- Epithelial,C16orf89
+Alveolar Fibrotic- Epithelial,C1orf21
+Alveolar Fibrotic- Epithelial,C3
+Alveolar Fibrotic- Epithelial,C4BPA
+Alveolar Fibrotic- Epithelial,CA2
+Alveolar Fibrotic- Epithelial,CACNA2D2
+Alveolar Fibrotic- Epithelial,CAT
+Alveolar Fibrotic- Epithelial,CD74
+Alveolar Fibrotic- Epithelial,CD83
+Alveolar Fibrotic- Epithelial,CDC42EP1
+Alveolar Fibrotic- Epithelial,CHCHD7
+Alveolar Fibrotic- Epithelial,CHI3L1
+Alveolar Fibrotic- Epithelial,CHI3L2
+Alveolar Fibrotic- Epithelial,CHIAP2
+Alveolar Fibrotic- Epithelial,CHP1
+Alveolar Fibrotic- Epithelial,CPB2
+Alveolar Fibrotic- Epithelial,CRTAC1
+Alveolar Fibrotic- Epithelial,CSF3
+Alveolar Fibrotic- Epithelial,CSF3R
+Alveolar Fibrotic- Epithelial,CTSH
+Alveolar Fibrotic- Epithelial,CXCL2
+Alveolar Fibrotic- Epithelial,CXCL3
+Alveolar Fibrotic- Epithelial,DBI
+Alveolar Fibrotic- Epithelial,DCXR
+Alveolar Fibrotic- Epithelial,DMBT1
+Alveolar Fibrotic- Epithelial,DRAM1
+Alveolar Fibrotic- Epithelial,EDNRB
+Alveolar Fibrotic- Epithelial,ELAPOR2
+Alveolar Fibrotic- Epithelial,ESAM
+Alveolar Fibrotic- Epithelial,ETV1
+Alveolar Fibrotic- Epithelial,ETV5
+Alveolar Fibrotic- Epithelial,FABP5
+Alveolar Fibrotic- Epithelial,FASN
+Alveolar Fibrotic- Epithelial,FGG
+Alveolar Fibrotic- Epithelial,FMO5
+Alveolar Fibrotic- Epithelial,FTL
+Alveolar Fibrotic- Epithelial,GSTA4
+Alveolar Fibrotic- Epithelial,HHIP
+Alveolar Fibrotic- Epithelial,HHIP-AS1
+Alveolar Fibrotic- Epithelial,HLA-DRB1
+Alveolar Fibrotic- Epithelial,HMOX1
+Alveolar Fibrotic- Epithelial,HP
+Alveolar Fibrotic- Epithelial,HSD17B4
+Alveolar Fibrotic- Epithelial,KCNJ15
+Alveolar Fibrotic- Epithelial,KCNJ8
+Alveolar Fibrotic- Epithelial,LAMP3
+Alveolar Fibrotic- Epithelial,LANCL1-AS1
+Alveolar Fibrotic- Epithelial,LGALSL
+Alveolar Fibrotic- Epithelial,LGMN
+Alveolar Fibrotic- Epithelial,LHFPL3-AS2
+Alveolar Fibrotic- Epithelial,LPCAT1
+Alveolar Fibrotic- Epithelial,LPL
+Alveolar Fibrotic- Epithelial,LRRC36
+Alveolar Fibrotic- Epithelial,LRRK2
+Alveolar Fibrotic- Epithelial,LTA4H
+Alveolar Fibrotic- Epithelial,MALL
+Alveolar Fibrotic- Epithelial,MED24
+Alveolar Fibrotic- Epithelial,MFSD2A
+Alveolar Fibrotic- Epithelial,MLPH
+Alveolar Fibrotic- Epithelial,MSMO1
+Alveolar Fibrotic- Epithelial,MSN
+Alveolar Fibrotic- Epithelial,MUC1
+Alveolar Fibrotic- Epithelial,NAPSA
+Alveolar Fibrotic- Epithelial,NECAB1
+Alveolar Fibrotic- Epithelial,NFKBIA
+Alveolar Fibrotic- Epithelial,NNMT
+Alveolar Fibrotic- Epithelial,NPC2
+Alveolar Fibrotic- Epithelial,NRGN
+Alveolar Fibrotic- Epithelial,ODC1
+Alveolar Fibrotic- Epithelial,ORM1
+Alveolar Fibrotic- Epithelial,PARM1
+Alveolar Fibrotic- Epithelial,PGC
+Alveolar Fibrotic- Epithelial,PID1
+Alveolar Fibrotic- Epithelial,PLA2G1B
+Alveolar Fibrotic- Epithelial,PLIN2
+Alveolar Fibrotic- Epithelial,PPP1R1B
+Alveolar Fibrotic- Epithelial,QDPR
+Alveolar Fibrotic- Epithelial,RAB27A
+Alveolar Fibrotic- Epithelial,RASGRF1
+Alveolar Fibrotic- Epithelial,RBPMS-AS1
+Alveolar Fibrotic- Epithelial,RGS16
+Alveolar Fibrotic- Epithelial,RND1
+Alveolar Fibrotic- Epithelial,S100A14
+Alveolar Fibrotic- Epithelial,SCD
+Alveolar Fibrotic- Epithelial,SDR16C5
+Alveolar Fibrotic- Epithelial,SELENBP1
+Alveolar Fibrotic- Epithelial,SERPINA1
+Alveolar Fibrotic- Epithelial,SERPINB1
+Alveolar Fibrotic- Epithelial,SFTPA1
+Alveolar Fibrotic- Epithelial,SFTPA2
+Alveolar Fibrotic- Epithelial,SFTPB
+Alveolar Fibrotic- Epithelial,SFTPC
+Alveolar Fibrotic- Epithelial,SFTPD
+Alveolar Fibrotic- Epithelial,SLC22A31
+Alveolar Fibrotic- Epithelial,SLC34A2
+Alveolar Fibrotic- Epithelial,SLC46A2
+Alveolar Fibrotic- Epithelial,SLC6A14
+Alveolar Fibrotic- Epithelial,SMAGP
+Alveolar Fibrotic- Epithelial,SNX25
+Alveolar Fibrotic- Epithelial,SNX30
+Alveolar Fibrotic- Epithelial,SOCS2
+Alveolar Fibrotic- Epithelial,SOD2
+Alveolar Fibrotic- Epithelial,SPRY4
+Alveolar Fibrotic- Epithelial,STC1
+Alveolar Fibrotic- Epithelial,STEAP4
+Alveolar Fibrotic- Epithelial,TFPI
+Alveolar Fibrotic- Epithelial,TIFA
+Alveolar Fibrotic- Epithelial,TMEM163
+Alveolar Fibrotic- Epithelial,TMEM243
+Alveolar Fibrotic- Epithelial,TPD52L1
+Alveolar Fibrotic- Epithelial,TTN
+Alveolar Fibrotic- Epithelial,WIF1
+Alveolar Fibrotic- Epithelial,ZDHHC3
+Alveolar Fibrotic- Epithelial,ZNF385B
+FUGUE,SFTPB
+FUGUE,SFTPA1
+FUGUE,SFTPA2
+FUGUE,NFKBIA
+FUGUE,TPSAB1
+FUGUE,SLC34A2
+FUGUE,GPC3
+FUGUE,RASSF1
+FUGUE,TPSB2
+FUGUE,DNM2
+FUGUE,HEXB
+FUGUE,BMPR2
+FUGUE,CD4
+FUGUE,PRKCE
+FUGUE,IRF1
+FUGUE,ALPP
+FUGUE,SFTPC
+FUGUE,SCGB3A2
+FUGUE,NOTCH1
+FUGUE,STAT3
+FUGUE,HLA-A
+FUGUE,CFAP52
+FUGUE,TAP2
+FUGUE,NFKB1
+FUGUE,ETS1
+FUGUE,FOXF1
+FUGUE,NME9
+FUGUE,LARP7
+FUGUE,MSLN
+FUGUE,HSD11B1
+FUGUE,ACVRL1
+FUGUE,TNFRSF1A
+FUGUE,TGFBR2
+FUGUE,NTRK1
+FUGUE,PARK2
+FUGUE,CD69
+FUGUE,TAL1
+FUGUE,TEK
+FUGUE,MAP3K8
+FUGUE,CTSD
+FUGUE,IKBKB
